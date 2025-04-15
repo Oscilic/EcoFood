@@ -1,6 +1,4 @@
 body{
-    margin-left: 0;
-    margin-top: 0;
     background-color: #FDF8EC;
 }
 .navbar{
@@ -8,6 +6,20 @@ body{
 }
 .navbar-nav{
     padding-right: 15px;
+}
+#bottom-footer{
+    background-color: #A8B38B;
+    border-bottom: 3px solid #4F6139;
+}
+#div-tint{
+    border-bottom: 3px solid #4F6139;
+    max-width: 100vmax;
+}
+p, h1, h2{
+    color: #000;
+}
+.card{
+    background-color: #E7E7D7;
 }
 .btn-primary{
     --bs-btn-bg: #4F6139;
@@ -31,4 +43,8 @@ body{
     --bs-btn-active-border-color: #E7E7D7;
     --bs-btn-disabled-bg: #BDBDAE;
     --bs-btn-disabled-border-color: #BDBDAE;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }

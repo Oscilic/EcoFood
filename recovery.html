@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperar contraseña</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Recupera tu contraseña</title>
 </head>
 <body>
-    
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card p-4" style="max-width: 400px; width: 100%;">
+            <h2 class="text-center mb-4">
+                Recuperar Contraseña
+            </h2>
+            <p class="text-center mb-4">
+                Ingresa el correo electrónico perteneciente a tu cuenta
+            </p>
+            <form id="recoverForm">
+                <div class="mb-3">
+                    <label for="email" class="form-label">
+                        Correo electrónico
+                    </label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                    Enviar correo
+                </button>
+            </form>
+            <div class="text-center mt-3">
+                <a href="login.html" class="back-link">
+                    Volver
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
